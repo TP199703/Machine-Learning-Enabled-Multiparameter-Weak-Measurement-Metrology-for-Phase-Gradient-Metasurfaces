@@ -5,4 +5,5 @@ This is the code for environment installation:
 `pip3 install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu121`
 `pip install numpy pandas scikit-learn matplotlib seaborn`.
 
+The dataset is too large to upload, but it can be generated from a dataset file. Please contact me if you need the dataset.
 If you have any questions, please contact 1056575808@qq.com
