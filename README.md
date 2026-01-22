@@ -1,1 +1,1 @@
-This is a weak measurement machine learning model. If you have any questions, please contact 1056575808@qq.com
+This is a weak measurement machine learning model. This contains the code for generating the model and the code for generating the dataset, the dataset's CSV file, and the resulting model's PTH file.. If you have any questions, please contact 1056575808@qq.com
