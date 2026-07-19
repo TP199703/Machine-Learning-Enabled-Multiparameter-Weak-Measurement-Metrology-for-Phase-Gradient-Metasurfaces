@@ -2,12 +2,15 @@ Two Dimensional Weak Measurement Model Code
 
 Dataset location
 
-Before running the training or evaluation scripts, manually place the following two files in this same folder:
+Before running the training or evaluation scripts, manually place the packed dataset file in this same folder:
 
 dataset_packed_221_v174.npy
+
+The dataset index file is included in this repository:
+
 dataset_index_fast_v174.csv
 
-The scripts use their own folder as the default dataset directory. The dataset files are not included in this code package.
+The scripts use their own folder as the default dataset directory. The packed NPY dataset is not included in this code package because it is large.
 
 Code files
 
@@ -22,6 +25,26 @@ Performs the MATLAB analysis of uniformly sampled angle centroid maps.
 
 export_paper_data.nb
 Exports data used for the manuscript from Mathematica.
+
+Model checkpoint files
+
+Best_b.pth
+Best model for amplitude ratio.
+
+Ckpt_b.pth
+Training checkpoint for amplitude ratio.
+
+Best_phi.pth
+Best model for phase difference.
+
+Ckpt_phi.pth
+Training checkpoint for phase difference.
+
+Best_zeta.pth
+Best model for phase gradient.
+
+Ckpt_zeta.pth
+Training checkpoint for phase gradient.
 
 Raw model result tables
 
