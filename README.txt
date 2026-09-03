@@ -6,9 +6,13 @@ Before running the training or evaluation scripts, manually place the packed dat
 
 dataset_packed_221_v174.npy
 
-The dataset index file is included in this repository:
+The dataset index files included in this repository are:
 
-dataset_index_fast_v174.csv
+dataset_index.csv
+Complete dataset index table.
+
+dataset_index_fast_50big.csv
+Fast dataset index table for the 50-big dataset variant.
 
 The scripts use their own folder as the default dataset directory. The packed NPY dataset is not included in this code package because it is large.
 
@@ -46,26 +50,3 @@ Best model for phase gradient.
 Ckpt_zeta.pth
 Training checkpoint for phase gradient.
 
-Raw model result tables
-
-phase_difference_train_raw_results.csv
-phase_difference_validation_raw_results.csv
-phase_difference_test_raw_results.csv
-
-amplitude_ratio_train_raw_results.csv
-amplitude_ratio_validation_raw_results.csv
-amplitude_ratio_test_raw_results.csv
-
-phase_gradient_train_raw_results.csv
-phase_gradient_validation_raw_results.csv
-phase_gradient_test_raw_results.csv
-
-Each raw result table contains the complete corresponding model output, including the target value, prediction, residual, and error information.
-
-Additional dataset index files
-
-dataset_index.csv
-Complete dataset index table.
-
-dataset_index_fast_50big.csv
-Fast dataset index table for the 50-big dataset variant.
